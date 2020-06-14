@@ -1,0 +1,31 @@
+{
+  "name": "test-exercise",
+  "version": "1.0.0",
+  "description": "Test functionality of roamler registration",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanAdamutiu/Test-Exercise.git"
+  },
+  "author": "Bogdan Adamutiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogdanAdamutiu/Test-Exercise/issues"
+  },
+  "homepage": "https://github.com/BogdanAdamutiu/Test-Exercise#readme",
+  "dependencies": {
+    "@wdio/cli": "^6.1.17",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.17",
+    "@wdio/mocha-framework": "^6.1.17",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
