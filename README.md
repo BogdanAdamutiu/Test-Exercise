@@ -15,3 +15,7 @@ Important to mention:
 		another, but that would have taken some time and maybe not the best solution.
 		b. Find a solution to use global variables in some places.
 		C. Find a better solution for using actions with selectors.
+		d. I wanted to add more configuration files so that the test can be run on Firefox and Edge, but I was missing some
+		tools and I decided not to invest more time in to it. Just a fast description of how it would have been done: add a
+		file called wdio.firefox.conf.js and then in the package.json I would have wrote a new test command "test-firefox"
+		which whould have called that configuration. Same for edge.
